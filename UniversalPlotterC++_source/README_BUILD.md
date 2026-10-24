@@ -330,7 +330,6 @@ To wipe everything, delete those entries or the configuration file.
 
 - **QCustomPlot 2.1.1** (2022-11-06), by Emanuel Eichhammer, is bundled unmodified in `third_party/qcustomplot/` and is licensed under the **GNU GPL v3 or later**. Distributing a binary that links it means the combined program must also comply with the GPL (offering source, etc.). A commercial QCustomPlot licence is available from its author if that is a problem.
 - **Qt 6** is available under LGPLv3 / GPLv3 / commercial terms. Check your obligations, especially for static linking.
-- The project itself does not yet include a `LICENSE` file; add one before publishing.
 
 ---
 
