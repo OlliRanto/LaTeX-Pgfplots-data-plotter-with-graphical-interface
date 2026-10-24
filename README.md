@@ -2,7 +2,7 @@
 
 A desktop application for quickly plotting data from CSV / TXT files (or from numbers you type or paste in), analysing it, and exporting publication-ready figures, including ready-to-compile **LaTeX / pgfplots** code.
 
-It is built for lab and measurement data: load a file, pick columns, and plot. Then fit curves, integrate areas, read off interpolated values, and export to LaTeX, PDF or SVG.
+It is built for lab and measurement data: load a file, pick columns, and plot. Then fit curves, integrate areas, read off interpolated values, and export to LaTeX, PDF or SVG. To export pdf or svg, install TeX Live to PATH.
 
 > Looking for build instructions or code internals? See [UniversalPlotterC++_source\README_BUILD.md](README_BUILD.md).
 
