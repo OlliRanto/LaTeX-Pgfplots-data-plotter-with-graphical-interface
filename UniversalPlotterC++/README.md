@@ -1,6 +1,6 @@
 # Universal Data Plotter (C++ / Qt6 / QCustomPlot)
 
-A C++/Qt6 port of the Python "universal plotter" tool: load one or more
+A C++/Qt6 universal plotter tool: load one or more
 CSV/TXT/TSV/DAT files with auto-detected separator, decimal mark, and
 header; pick X/Y columns; plot; fit curves; integrate; interpolate; and
 export to LaTeX (pgfplots).
@@ -58,9 +58,6 @@ Or open `UniversalPlotter.pro` directly in Qt Creator and build/run from there.
   interpolated Y value of every plotted curve at that X.
 - **Snapping**: optional "snap to nearest data point" for all draggable
   lines (fit range / integral range / interpolation cursor).
-- **Export**: PNG/JPEG/PDF snapshot of the plot, and a full-featured
-  "Export to LaTeX (pgfplots)" dialog matching the Python app section for
-  section:
   - **Data source**: embed points directly, or reference external CSV(s)
     (one per source file, with its own filename/column separator) via
     `\pgfplotstable`/`table=` -- the CSV(s) are written alongside the
@@ -92,19 +89,11 @@ Or open `UniversalPlotter.pro` directly in Qt Creator and build/run from there.
   The generated code opens in a read-only viewer with "Copy to clipboard",
   "Save .tex (+ CSV)", and "Compile to PDF..." actions. Compiling
   auto-detects `lualatex`/`latexmk`/`pdflatex`/`xelatex` on your system
-  PATH (same preference order as the Python app, with `latexmk` forced
-  onto the `lualatex` engine), runs it in a temp directory alongside any
+  PATH, runs it in a temp directory alongside any
   needed CSVs, and either prompts you to save the resulting PDF (with an
   option to open it) or shows the full compiler log if it fails.
 
-## Known simplifications vs. the Python original
 
-- The Python app could also embed the *exact* pandas objects for a live
-  Python-console debug view; that's obviously not applicable here.
-- Custom fit functions support `+ - * / ^`, parentheses, and
-  `sin cos tan asin acos atan sinh cosh tanh exp log log10 log2 sqrt abs`
-  (`log` is natural log, matching the Python app's `numpy` namespace) --
-  no arbitrary Python expressions.
 
 ## Project layout
 
