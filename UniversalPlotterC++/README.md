@@ -33,7 +33,7 @@ make -j$(nproc)
 
 Or open `UniversalPlotter.pro` directly in Qt Creator and build/run from there.
 
-## Features ported from the Python app
+## Features
 
 - **File loading**: multi-file open, auto-detected separator (`,` `;` tab
   `|` or whitespace), auto-detected decimal mark (`.` or `,`), auto-detected
