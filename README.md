@@ -4,7 +4,7 @@ A desktop application for quickly plotting data from CSV / TXT files (or from nu
 
 It is built for lab and measurement data: load a file, pick columns, and plot. Then fit curves, integrate areas, read off interpolated values, and export to LaTeX, PDF or SVG.
 
-> Looking for build instructions or code internals? See [README_BUILD.md](README_BUILD.md).
+> Looking for build instructions or code internals? See [UniversalPlotterC++_source\README_BUILD.md](README_BUILD.md).
 
 ---
 
