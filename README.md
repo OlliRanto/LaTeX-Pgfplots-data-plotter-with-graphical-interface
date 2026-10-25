@@ -5,7 +5,7 @@ mathematical functions, analysing it (curve fits, integrals, interpolation) and
 exporting publication-quality figures as **LaTeX / pgfplots** code.
 
 It is written in C++ with Qt 6 and QCustomPlot. Build instructions and
-technical notes are in [UniversalPlotterC++_source\README_TECHNICAL.md](README_TECHNICAL.md).
+technical notes are in [README_TECHNICAL.md](UniversalPlotterC++_source\README_TECHNICAL.md).
 
 ---
 
